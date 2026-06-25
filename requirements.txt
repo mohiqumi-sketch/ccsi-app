@@ -1,0 +1,6 @@
+streamlit
+openai-whisper
+google-genai
+moviepy
+pydantic
+pandas
