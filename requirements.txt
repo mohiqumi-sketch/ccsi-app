@@ -1,6 +1,6 @@
 streamlit
 openai-whisper
 google-genai
-moviepy
+moviepy.editor
 pydantic
 pandas
