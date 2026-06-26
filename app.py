@@ -131,7 +131,7 @@ def clip_and_crop_video(video_path: str, highlights: List[Dict], output_dir: str
             cropped_clip = sliced_clip.crop(x1=x1, y1=0, x2=x2, y2=orig_h)
             
             cropped_clip.write_videofile(
-                output_filepath, codec="libx262", audio_codec="aac", preset="ultrafast", bitrate="2000k", logger=None
+                output_filepath, codec="libx264", audio_codec="aac", preset="ultrafast", bitrate="2000k", logger=None
             )
             generated_filenames.append(output_filepath)
             
